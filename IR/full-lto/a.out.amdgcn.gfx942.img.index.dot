@@ -1,0 +1,208 @@
+digraph Summary {
+  // Module: kernel1-amdgcn-amd-amdhsa-gfx942.o
+  subgraph cluster_0 {
+    style = filled;
+    color = lightgrey;
+    label = "kernel1-amdgcn-amd-amdhsa-gfx942.o";
+    node [style=filled,fillcolor=lightblue];
+    M0_1084205601515120423 [shape="Mrecord",label="anon.a9ed9815896cf6404667e416dfa6df1a.1|private}"]; // variable, constant, dsoLocal, definition
+    M0_1710522657835276357 [shape="record",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6_omp_outlined|internal (inst: 150, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_1738656404707646581 [shape="Mrecord",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6_dynamic_environment|weak_odr}"]; // variable, visibility, dsoLocal, definition, preserved
+    M0_2249825959902025255 [shape="Mrecord",label="__openmp_nvptx_data_transfer_temporary_storage|weak}"]; // variable, definition, preserved
+    M0_3299987343959274076 [shape="Mrecord",label="anon.a9ed9815896cf6404667e416dfa6df1a.0|private}"]; // variable, constant, dsoLocal, definition
+    M0_3327838070598987336 [shape="record",label="_omp_reduction_inter_warp_copy_func.2|internal (inst: 36, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_4300254374561737868 [shape="record",label="_omp_reduction_global_to_list_copy_func|internal (inst: 19, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_4509412526238347746 [shape="record",label="_omp_reduction_shuffle_and_reduce_func|internal (inst: 61, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_4593040614655876671 [shape="Mrecord",label="__omp_rtl_assume_no_thread_state|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M0_5022078428856959791 [shape="record",label="_omp_reduction_shuffle_and_reduce_func.1|internal (inst: 61, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_8578766398036068689 [shape="record",label="_omp_reduction_global_to_list_reduce_func|internal (inst: 20, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_8774017150000762377 [shape="Mrecord",label="anon.a9ed9815896cf6404667e416dfa6df1a.2|private}"]; // variable, constant, dsoLocal, definition
+    M0_9506630295409597929 [shape="record",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6|weak_odr (inst: 33, ffl: 0010101000)}"]; // function, visibility, dsoLocal, definition, preserved
+    M0_9842505785775628819 [shape="record",label="_omp_reduction_inter_warp_copy_func|internal (inst: 36, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_9953897803508942254 [shape="Mrecord",label="__omp_rtl_assume_teams_oversubscription|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M0_10933567103383859985 [shape="record",label="_omp_reduction_list_to_global_copy_func|internal (inst: 19, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_11499332754347249477 [shape="Mrecord",label="__omp_rtl_assume_no_nested_parallelism|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M0_11736067487890052868 [shape="Mrecord",label="__omp_rtl_debug_kind|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M0_13409729318635888168 [shape="record",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6_omp_outlined_omp_outlined|internal (inst: 115, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_14475962404335467506 [shape="record",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6_omp_outlined_omp$reduction$reduction_func|internal (inst: 17, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_14588569605983908681 [shape="record",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6_omp_outlined_omp_outlined_omp$reduction$reduction_func|internal (inst: 17, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_15585558552163329872 [shape="Mrecord",label="anon.a9ed9815896cf6404667e416dfa6df1a.3|private}"]; // variable, constant, dsoLocal, definition
+    M0_16076091986541261480 [shape="Mrecord",label="__omp_offloading_52_2eb8e89__Z7kernel1Pfi_l6_kernel_environment|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M0_17019415339277177849 [shape="Mrecord",label="anon.a9ed9815896cf6404667e416dfa6df1a.4|private}"]; // variable, constant, dsoLocal, definition
+    M0_17622232407341301056 [shape="record",label="_omp_reduction_list_to_global_reduce_func|internal (inst: 20, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M0_18094007205420681975 [shape="Mrecord",label="__omp_rtl_assume_threads_oversubscription|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    // Edges:
+    M0_1084205601515120423 -> M0_3299987343959274076 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_8774017150000762377 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_13409729318635888168 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_1084205601515120423 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_5022078428856959791 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_3327838070598987336 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_10933567103383859985 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_17622232407341301056 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_4300254374561737868 [style=dashed]; // ref
+    M0_1710522657835276357 -> M0_8578766398036068689 [style=dashed]; // ref
+    M0_3327838070598987336 -> M0_1084205601515120423 [style=dashed]; // ref
+    M0_3327838070598987336 -> M0_17019415339277177849 [style=dashed]; // ref
+    M0_3327838070598987336 -> M0_2249825959902025255 [style=dashed]; // ref
+    M0_4509412526238347746 -> M0_14588569605983908681 // call (hotness : Unknown)
+    M0_5022078428856959791 -> M0_14475962404335467506 // call (hotness : Unknown)
+    M0_8578766398036068689 -> M0_14475962404335467506 // call (hotness : Unknown)
+    M0_8774017150000762377 -> M0_3299987343959274076 [style=dashed]; // ref
+    M0_9506630295409597929 -> M0_16076091986541261480 [style=dashed]; // ref
+    M0_9506630295409597929 -> M0_1084205601515120423 [style=dashed]; // ref
+    M0_9506630295409597929 -> M0_1710522657835276357 // call (hotness : Unknown)
+    M0_9842505785775628819 -> M0_1084205601515120423 [style=dashed]; // ref
+    M0_9842505785775628819 -> M0_17019415339277177849 [style=dashed]; // ref
+    M0_9842505785775628819 -> M0_2249825959902025255 [style=dashed]; // ref
+    M0_13409729318635888168 -> M0_15585558552163329872 [style=dashed]; // ref
+    M0_13409729318635888168 -> M0_4509412526238347746 [style=dashed]; // ref
+    M0_13409729318635888168 -> M0_9842505785775628819 [style=dashed]; // ref
+    M0_13409729318635888168 -> M0_1084205601515120423 [style=dashed]; // ref
+    M0_15585558552163329872 -> M0_3299987343959274076 [style=dashed]; // ref
+    M0_16076091986541261480 -> M0_1084205601515120423 [style=dashed]; // ref
+    M0_16076091986541261480 -> M0_1738656404707646581 [style=dashed]; // ref
+    M0_17019415339277177849 -> M0_3299987343959274076 [style=dashed]; // ref
+    M0_17622232407341301056 -> M0_14475962404335467506 // call (hotness : Unknown)
+  }
+  // Module: kernel2-amdgcn-amd-amdhsa-gfx942.o
+  subgraph cluster_1 {
+    style = filled;
+    color = lightgrey;
+    label = "kernel2-amdgcn-amd-amdhsa-gfx942.o";
+    node [style=filled,fillcolor=lightblue];
+    M1_1189538472652853519 [shape="record",label="_omp_reduction_inter_warp_copy_func.2|internal (inst: 36, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_1941054849191541208 [shape="Mrecord",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6_kernel_environment|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M1_2249825959902025255 [shape="Mrecord",label="__openmp_nvptx_data_transfer_temporary_storage|weak}"]; // variable, definition, preserved
+    M1_2392401763751903907 [shape="record",label="_omp_reduction_list_to_global_copy_func|internal (inst: 19, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_3899544554645482444 [shape="record",label="_omp_reduction_global_to_list_copy_func|internal (inst: 19, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_4555571926384476694 [shape="record",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6_omp_outlined_omp_outlined|internal (inst: 115, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_4593040614655876671 [shape="Mrecord",label="__omp_rtl_assume_no_thread_state|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M1_4769303726687971441 [shape="Mrecord",label="anon.9a83ea14dcc72ffeb0fe81c62ec782b0.4|private}"]; // variable, constant, dsoLocal, definition
+    M1_5691669992064052041 [shape="Mrecord",label="anon.9a83ea14dcc72ffeb0fe81c62ec782b0.1|private}"]; // variable, constant, dsoLocal, definition
+    M1_7096589628792312430 [shape="Mrecord",label="anon.9a83ea14dcc72ffeb0fe81c62ec782b0.3|private}"]; // variable, constant, dsoLocal, definition
+    M1_7836964210943431132 [shape="record",label="_omp_reduction_global_to_list_reduce_func|internal (inst: 20, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_8387603978367346456 [shape="Mrecord",label="anon.9a83ea14dcc72ffeb0fe81c62ec782b0.2|private}"]; // variable, constant, dsoLocal, definition
+    M1_9491609644883908731 [shape="record",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6_omp_outlined_omp_outlined_omp$reduction$reduction_func|internal (inst: 17, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_9566553831546344842 [shape="record",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6_omp_outlined_omp$reduction$reduction_func|internal (inst: 17, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_9613460118524958861 [shape="Mrecord",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6_dynamic_environment|weak_odr}"]; // variable, visibility, dsoLocal, definition, preserved
+    M1_9953897803508942254 [shape="Mrecord",label="__omp_rtl_assume_teams_oversubscription|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M1_10942439861219191790 [shape="record",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6|weak_odr (inst: 33, ffl: 0010101000)}"]; // function, visibility, dsoLocal, definition, preserved
+    M1_11499332754347249477 [shape="Mrecord",label="__omp_rtl_assume_no_nested_parallelism|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M1_11736067487890052868 [shape="Mrecord",label="__omp_rtl_debug_kind|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M1_12334190885161275106 [shape="record",label="_omp_reduction_shuffle_and_reduce_func.1|internal (inst: 61, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_14004973675750126828 [shape="Mrecord",label="anon.9a83ea14dcc72ffeb0fe81c62ec782b0.0|private}"]; // variable, constant, dsoLocal, definition
+    M1_14504916128377941085 [shape="record",label="__omp_offloading_52_2eb90c6__Z7kernel2Pfi_l6_omp_outlined|internal (inst: 150, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_15745667042819548794 [shape="record",label="_omp_reduction_shuffle_and_reduce_func|internal (inst: 61, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_18031951476308507306 [shape="record",label="_omp_reduction_inter_warp_copy_func|internal (inst: 36, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    M1_18094007205420681975 [shape="Mrecord",label="__omp_rtl_assume_threads_oversubscription|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M1_18126052592342675078 [shape="record",label="_omp_reduction_list_to_global_reduce_func|internal (inst: 20, ffl: 0010101000)}"]; // function, dsoLocal, definition
+    // Edges:
+    M1_1189538472652853519 -> M1_5691669992064052041 [style=dashed]; // ref
+    M1_1189538472652853519 -> M1_4769303726687971441 [style=dashed]; // ref
+    M1_1189538472652853519 -> M1_2249825959902025255 [style=dashed]; // ref
+    M1_1941054849191541208 -> M1_5691669992064052041 [style=dashed]; // ref
+    M1_1941054849191541208 -> M1_9613460118524958861 [style=dashed]; // ref
+    M1_4555571926384476694 -> M1_7096589628792312430 [style=dashed]; // ref
+    M1_4555571926384476694 -> M1_15745667042819548794 [style=dashed]; // ref
+    M1_4555571926384476694 -> M1_18031951476308507306 [style=dashed]; // ref
+    M1_4555571926384476694 -> M1_5691669992064052041 [style=dashed]; // ref
+    M1_4769303726687971441 -> M1_14004973675750126828 [style=dashed]; // ref
+    M1_5691669992064052041 -> M1_14004973675750126828 [style=dashed]; // ref
+    M1_7096589628792312430 -> M1_14004973675750126828 [style=dashed]; // ref
+    M1_7836964210943431132 -> M1_9566553831546344842 // call (hotness : Unknown)
+    M1_8387603978367346456 -> M1_14004973675750126828 [style=dashed]; // ref
+    M1_10942439861219191790 -> M1_1941054849191541208 [style=dashed]; // ref
+    M1_10942439861219191790 -> M1_5691669992064052041 [style=dashed]; // ref
+    M1_10942439861219191790 -> M1_14504916128377941085 // call (hotness : Unknown)
+    M1_12334190885161275106 -> M1_9566553831546344842 // call (hotness : Unknown)
+    M1_14504916128377941085 -> M1_8387603978367346456 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_4555571926384476694 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_5691669992064052041 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_12334190885161275106 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_1189538472652853519 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_2392401763751903907 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_18126052592342675078 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_3899544554645482444 [style=dashed]; // ref
+    M1_14504916128377941085 -> M1_7836964210943431132 [style=dashed]; // ref
+    M1_15745667042819548794 -> M1_9491609644883908731 // call (hotness : Unknown)
+    M1_18031951476308507306 -> M1_5691669992064052041 [style=dashed]; // ref
+    M1_18031951476308507306 -> M1_4769303726687971441 [style=dashed]; // ref
+    M1_18031951476308507306 -> M1_2249825959902025255 [style=dashed]; // ref
+    M1_18126052592342675078 -> M1_9566553831546344842 // call (hotness : Unknown)
+  }
+  // Module: main-amdgcn-amd-amdhsa-gfx942.o
+  subgraph cluster_2 {
+    style = filled;
+    color = lightgrey;
+    label = "main-amdgcn-amd-amdhsa-gfx942.o";
+    node [style=filled,fillcolor=lightblue];
+    M2_4593040614655876671 [shape="Mrecord",label="__omp_rtl_assume_no_thread_state|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M2_9953897803508942254 [shape="Mrecord",label="__omp_rtl_assume_teams_oversubscription|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M2_11499332754347249477 [shape="Mrecord",label="__omp_rtl_assume_no_nested_parallelism|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M2_11736067487890052868 [shape="Mrecord",label="__omp_rtl_debug_kind|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    M2_18094007205420681975 [shape="Mrecord",label="__omp_rtl_assume_threads_oversubscription|weak_odr}"]; // variable, constant, visibility, dsoLocal, definition, preserved
+    // Edges:
+  }
+  // Cross-module edges:
+  8845820491716505209 [label="__kmpc_get_hardware_num_threads_in_block"]; // defined externally
+  M0_1710522657835276357 -> 8845820491716505209 // call (hotness : Unknown)
+  8367572579061769073 [label="__kmpc_distribute_static_init_4"]; // defined externally
+  M0_1710522657835276357 -> 8367572579061769073 // call (hotness : Unknown)
+  16960289556670556065 [label="__kmpc_parallel_51"]; // defined externally
+  M0_1710522657835276357 -> 16960289556670556065 // call (hotness : Unknown)
+  524830217970883936 [label="__kmpc_distribute_static_fini"]; // defined externally
+  M0_1710522657835276357 -> 524830217970883936 // call (hotness : Unknown)
+  13379221911022645182 [label="__kmpc_reduction_get_fixed_buffer"]; // defined externally
+  M0_1710522657835276357 -> 13379221911022645182 // call (hotness : Unknown)
+  3371251454248726837 [label="__kmpc_nvptx_teams_reduce_nowait_v2"]; // defined externally
+  M0_1710522657835276357 -> 3371251454248726837 // call (hotness : Unknown)
+  14211546401205210981 [label="__kmpc_get_hardware_thread_id_in_block"]; // defined externally
+  M0_3327838070598987336 -> 14211546401205210981 // call (hotness : Unknown)
+  16561262631553642862 [label="__kmpc_global_thread_num"]; // defined externally
+  M0_3327838070598987336 -> 16561262631553642862 // call (hotness : Unknown)
+  8556358080803720688 [label="__kmpc_barrier"]; // defined externally
+  M0_3327838070598987336 -> 8556358080803720688 // call (hotness : Unknown)
+  6531213501148817425 [label="__kmpc_get_warp_size"]; // defined externally
+  M0_4509412526238347746 -> 6531213501148817425 // call (hotness : Unknown)
+  11480212951250667996 [label="__kmpc_shuffle_int32"]; // defined externally
+  M0_4509412526238347746 -> 11480212951250667996 // call (hotness : Unknown)
+  M0_5022078428856959791 -> 6531213501148817425 // call (hotness : Unknown)
+  M0_5022078428856959791 -> 11480212951250667996 // call (hotness : Unknown)
+  10642900936101337491 [label="__kmpc_target_init"]; // defined externally
+  M0_9506630295409597929 -> 10642900936101337491 // call (hotness : Unknown)
+  M0_9506630295409597929 -> 16561262631553642862 // call (hotness : Unknown)
+  13258973061771607943 [label="__kmpc_target_deinit"]; // defined externally
+  M0_9506630295409597929 -> 13258973061771607943 // call (hotness : Unknown)
+  M0_9842505785775628819 -> 14211546401205210981 // call (hotness : Unknown)
+  M0_9842505785775628819 -> 16561262631553642862 // call (hotness : Unknown)
+  M0_9842505785775628819 -> 8556358080803720688 // call (hotness : Unknown)
+  8974679430248103050 [label="__kmpc_for_static_init_4"]; // defined externally
+  M0_13409729318635888168 -> 8974679430248103050 // call (hotness : Unknown)
+  1363247836708998380 [label="__kmpc_for_static_fini"]; // defined externally
+  M0_13409729318635888168 -> 1363247836708998380 // call (hotness : Unknown)
+  17452499281565421935 [label="__kmpc_nvptx_parallel_reduce_nowait_v2"]; // defined externally
+  M0_13409729318635888168 -> 17452499281565421935 // call (hotness : Unknown)
+  M1_1189538472652853519 -> 14211546401205210981 // call (hotness : Unknown)
+  M1_1189538472652853519 -> 16561262631553642862 // call (hotness : Unknown)
+  M1_1189538472652853519 -> 8556358080803720688 // call (hotness : Unknown)
+  M1_4555571926384476694 -> 8974679430248103050 // call (hotness : Unknown)
+  M1_4555571926384476694 -> 1363247836708998380 // call (hotness : Unknown)
+  M1_4555571926384476694 -> 17452499281565421935 // call (hotness : Unknown)
+  M1_10942439861219191790 -> 10642900936101337491 // call (hotness : Unknown)
+  M1_10942439861219191790 -> 16561262631553642862 // call (hotness : Unknown)
+  M1_10942439861219191790 -> 13258973061771607943 // call (hotness : Unknown)
+  M1_12334190885161275106 -> 6531213501148817425 // call (hotness : Unknown)
+  M1_12334190885161275106 -> 11480212951250667996 // call (hotness : Unknown)
+  M1_14504916128377941085 -> 8845820491716505209 // call (hotness : Unknown)
+  M1_14504916128377941085 -> 8367572579061769073 // call (hotness : Unknown)
+  M1_14504916128377941085 -> 16960289556670556065 // call (hotness : Unknown)
+  M1_14504916128377941085 -> 524830217970883936 // call (hotness : Unknown)
+  M1_14504916128377941085 -> 13379221911022645182 // call (hotness : Unknown)
+  M1_14504916128377941085 -> 3371251454248726837 // call (hotness : Unknown)
+  M1_15745667042819548794 -> 6531213501148817425 // call (hotness : Unknown)
+  M1_15745667042819548794 -> 11480212951250667996 // call (hotness : Unknown)
+  M1_18031951476308507306 -> 14211546401205210981 // call (hotness : Unknown)
+  M1_18031951476308507306 -> 16561262631553642862 // call (hotness : Unknown)
+  M1_18031951476308507306 -> 8556358080803720688 // call (hotness : Unknown)
+}
